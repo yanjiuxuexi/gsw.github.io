@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>实验室电子元器件</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-blue-500 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">实验室电子元器件</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline">主页</a></li>
+                <li><a href="#" class="hover:underline">关于</a></li>
+                <li><a href="#" class="hover:underline">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="container mx-auto p-4">
+        <h2 class="text-2xl font-bold mb-4">元器件列表</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- 电阻 -->
+            <div class="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold mb-2">电阻</h3>
+                <img src="https://picsum.photos/200/200" alt="电阻" class="w-full h-auto mb-2">
+                <p class="text-gray-600">电阻是一个限流元件，将电阻接在电路中后，电阻器的阻值是固定的一般是两个引脚，它可限制通过它所连支路的电流大小。</p>
+            </div>
+            <!-- 电容 -->
+            <div class="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold mb-2">电容</h3>
+                <img src="https://picsum.photos/200/200" alt="电容" class="w-full h-auto mb-2">
+                <p class="text-gray-600">电容是由两块金属电极之间夹一层绝缘电介质构成。当在两金属电极间加上电压时，电极上就会存储电荷，所以电容器是储能元件。</p>
+            </div>
+            <!-- 电感 -->
+            <div class="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold mb-2">电感</h3>
+                <img src="https://picsum.photos/200/200" alt="电感" class="w-full h-auto mb-2">
+                <p class="text-gray-600">电感是能够把电能转化为磁能而存储起来的元件。电感器的结构类似于变压器，但只有一个绕组。</p>
+            </div>
+            <!-- 电源管理芯片 -->
+            <div class="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold mb-2">电源管理芯片</h3>
+                <img src="https://picsum.photos/200/200" alt="电源管理芯片" class="w-full h-auto mb-2">
+                <p class="text-gray-600">电源管理芯片是在电子设备系统中担负起对电能的变换、分配、检测及其他电能管理的职责的芯片。</p>
+            </div>
+            <!-- 三极管 -->
+            <div class="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold mb-2">三极管</h3>
+                <img src="https://picsum.photos/200/200" alt="三极管" class="w-full h-auto mb-2">
+                <p class="text-gray-600">三极管是一种控制电流的半导体器件，其作用是把微弱信号放大成幅度值较大的电信号，也用作无触点开关。</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 p-4 text-white text-center">
+        <p>&copy; 2025 实验室电子元器件</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+    
